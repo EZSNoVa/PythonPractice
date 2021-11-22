@@ -1,0 +1,11 @@
+back load = code executed after certain time, usually used for things that dont require be updated in
+avery frame
+
+deep load = code executed after a big amount of time, usually used for things that need to be loaded 
+but not require an update because dont change.
+
+simple = No back or deep loaded
+simple-bl = Backload include, but deep not
+simple-d_bl = Back and Deep load included.
+
+NOTE: if you need a deep load but no a backload, use <simple-bl> and change <BACK_LOAD_VALUE> to 10-15
